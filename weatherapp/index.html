@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/eda9125970.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <form id="city-search">
+          <input
+            type="text"
+            placeholder="Search City"
+            autocomplete="off"
+            autofocus="on"
+            id="newcity-search"
+          />
+          <input type="submit" value="Search" />
+        </form>
+        <button id="gpsLocation">Current Location</button>
+        <h1>Tuesday, June 21st</h1>
+        <h2 id="city">Seattle, WA, USA</h2>
+        <p></p>
+        <h3>
+          🌞<br />
+          69° F
+        </h3>
+        <h4>
+          <div class="row">
+            <div class="col">
+              Wed, June 22 <br />
+              🌦️<br />
+              59°/48°
+            </div>
+            <div class="col">
+              Thurs, June 23 <br />
+              🌥️ <br />
+              66°/46°
+            </div>
+            <div class="col">
+              Fri, June 24 <br />
+              🌞<br />
+              71°/53°
+            </div>
+            <div class="col">
+              Sat, June 25 <br />
+              🌞 <br />
+              79°/56°
+            </div>
+            <div class="col">
+              Sun, June 26 <br />
+              🌞 <br />
+              81°/59°
+            </div>
+          </div>
+        </h4>
+      </div>
+    </div>
+    <script src="weatherappJava.java"></script>
+  </body>
+</html>
