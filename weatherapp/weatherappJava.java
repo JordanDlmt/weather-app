@@ -29,7 +29,7 @@ let months = [
 let month = months[now.getMonth()];
 
 let h1 = document.querySelector("h1");
-h1.innerHTML = `Today is ${day}, ${month} ${date}, ${year}`;
+h1.innerHTML = `${day}, ${month} ${date}, ${year}`;
 
 function citySearched(event) {
   event.preventDefault();
