@@ -48,3 +48,13 @@ h3 {
   background: #938591;
   color: #e4dde2;
 }
+a {
+  text-decoration: none;
+  color: #938591;
+}
+a:hover {
+  color: #5c3a51;
+}
+.name {
+  color: #5c3a51;
+}
